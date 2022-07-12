@@ -6,8 +6,10 @@ public class FuhrparkTest {
 				
 		Scooter meinErsterScooter = new Scooter();
 		
-		// meinErsterScooter.setKaufpreis(300);
-		System.out.println(meinErsterScooter.getKaufpreis()); 
+		meinErsterScooter.setKaufpreis(-3);
+		meinErsterScooter.setGewicht(6);
+		System.out.println("Kaufpreis " + meinErsterScooter.getKaufpreis()); 
+		System.out.println("Gewicht " + meinErsterScooter.getGewicht());
 
 	}
 

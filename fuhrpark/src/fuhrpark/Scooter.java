@@ -4,6 +4,17 @@ public class Scooter extends Roller {
 	private Integer anzahlScooter;
 	private Integer gewicht;
 	private boolean klappbar;
+	
+	Scooter() {
+		// kaufpreis = 2.0;
+		setKaufpreis(3.0);
+	}
+//	public void setKaufpreis(double kaufpreis) {
+//		if (kaufpreis > -100) {
+//			super.setKaufpreis(kaufpreis);
+//	
+//		}
+//	}
 	public Integer getAnzahlScooter() {
 		return anzahlScooter;
 	}
